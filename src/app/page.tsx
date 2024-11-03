@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { Input } from "postcss";
 
 export default function Home() {
   return (
     <div className="">
+
       <Button>
         Primary
       </Button>
