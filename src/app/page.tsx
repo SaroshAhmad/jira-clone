@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="flex gap-4">
+    <div className="">
       <Button>
         Primary
       </Button>
@@ -15,8 +15,14 @@ export default function Home() {
       <Button variant="ghost">
         Ghost
       </Button>
-      <Button variant="link">
-        Link
+      <Button variant="muted">
+        Muted
+      </Button>
+      <Button variant="outline">
+        Outline
+      </Button>
+      <Button variant="teritary">
+        Teritary
       </Button>
     </div>
   )
